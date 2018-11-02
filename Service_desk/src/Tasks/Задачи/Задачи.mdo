@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Task xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="51dbce45-a9ee-4f63-9296-95d15ab4c03a">
+  <producedTypes>
+    <objectType typeId="8ce69518-1640-4992-95c9-6c496b2837d1" valueTypeId="d0fc6d7c-1eeb-4ea9-947b-fe3fa343ce5c"/>
+    <refType typeId="ffd2e58a-7593-41f7-8d33-865cbfd47ccf" valueTypeId="3672fc1a-3438-46be-bb80-8269efea91ef"/>
+    <selectionType typeId="6563b2f6-c2f7-4db0-9b8c-8cc295432691" valueTypeId="a04e0b08-f787-4b45-a3c1-48a92622e803"/>
+    <listType typeId="c194bfce-1621-41cc-9577-4b8b835cc9a8" valueTypeId="5609a17f-1b0c-4bcd-97f3-3abadf14f058"/>
+    <managerType typeId="fb29e756-669f-466a-88fa-72d2847609f2" valueTypeId="94904671-7af4-458a-815e-88706cec10b3"/>
+  </producedTypes>
+  <name>Задачи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Задачи</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Task.Задачи.StandardAttribute.Description</inputByString>
+  <inputByString>Task.Задачи.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <basedOn>Catalog.Заявки</basedOn>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <taskNumberAutoPrefix>DontUse</taskNumberAutoPrefix>
+  <descriptionLength>150</descriptionLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <defaultObjectForm>Task.Задачи.Form.ФормаЗадачи</defaultObjectForm>
+  <defaultListForm>Task.Задачи.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="5cd236a5-f892-487b-b06e-186e52ffb3ef">
+    <name>ДатаВыполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата выполнения</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9bb7fc33-bee0-4412-a983-7b82e9944d4d">
+    <name>Заявка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заявка</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Заявки</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="d819ca54-e824-402b-8aa5-7d628c382a94">
+    <name>ФормаЗадачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма задачи</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b643ac70-56d0-4319-8e35-11563aa20d33">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <addressingAttributes uuid="1d26e236-07be-4c76-ba58-b4d15176db10">
+    <name>Исполнитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исполнитель</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Исполнители</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </addressingAttributes>
+</mdclass:Task>

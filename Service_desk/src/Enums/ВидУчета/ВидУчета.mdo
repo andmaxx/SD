@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b391f325-51ed-4b3a-b14d-575ea679cd13">
+  <producedTypes>
+    <refType typeId="b730fc41-33cf-4c00-af8d-545f2e89f2a8" valueTypeId="1666747d-88eb-4b1a-bd22-a6c765eb7b24"/>
+    <listType typeId="214ec55c-461e-47ec-810e-25a457f77eef" valueTypeId="3033c48e-b61d-4724-bf39-28d9728ca8f0"/>
+    <managerType typeId="e7f1de6f-9b0e-4e8e-a49a-b2593de5e991" valueTypeId="df3a0ae5-3cb3-437d-a31d-e964bf5d0769"/>
+  </producedTypes>
+  <name>ВидУчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид учета</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="2dfb5cc2-e23b-464a-a357-b7b81c6acaba">
+    <name>БУ</name>
+    <synonym>
+      <key>ru</key>
+      <value>БУ</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="6c50eb6d-4dfc-4b5e-87e9-e29a953d4b46">
+    <name>МУ</name>
+    <synonym>
+      <key>ru</key>
+      <value>МУ</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

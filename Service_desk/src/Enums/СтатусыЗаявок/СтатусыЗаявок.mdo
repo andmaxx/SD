@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="874b079b-b39b-4d0d-8bad-ead44bedaffe">
+  <producedTypes>
+    <refType typeId="7f5791ef-6bcb-4e47-a7a7-d10d7f055192" valueTypeId="b5ec3747-690e-44c7-8976-996b453338ea"/>
+    <listType typeId="f9477d28-dc57-4b2f-ac19-647a17d9884b" valueTypeId="1805ee1b-7db5-4ddf-8b0d-0b91b864ef65"/>
+    <managerType typeId="34228764-1246-437f-8105-b2ecaaa5fef9" valueTypeId="d3302943-11f4-4f08-9293-7b6198197d56"/>
+  </producedTypes>
+  <name>СтатусыЗаявок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы заявок</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="8a4acb2b-2403-4a23-9ca8-6c3aa86ac53e">
+    <name>ВОжиданииРаботы</name>
+    <synonym>
+      <key>ru</key>
+      <value>В ожидании работы</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="0a18bfd3-0893-4248-a51f-df8b5c312a9d">
+    <name>ВРаботе</name>
+    <synonym>
+      <key>ru</key>
+      <value>В работе</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="cbb674c9-d8fb-49f5-a22e-28969ddf473e">
+    <name>ВОжиданииИнформацииЗаявителя</name>
+    <synonym>
+      <key>ru</key>
+      <value>В ожидании подтверждения выполнения заявителем</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="4205768d-7323-4e05-a3c4-abbb4d1c596e">
+    <name>Закрыта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнена</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="2cca0608-e926-4217-9596-2c30f25ee5f5">
+    <name>Отменена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отменена</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

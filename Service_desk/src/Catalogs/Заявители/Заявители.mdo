@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2d5079da-6427-4433-b01d-aa72bd97cb6c">
+  <producedTypes>
+    <objectType typeId="e972696c-fb2d-49ad-afe2-d3f45c37c758" valueTypeId="f4cfdd43-8297-4ec6-a256-a4810f03fed3"/>
+    <refType typeId="4a806adf-f3e0-4b6e-a069-243c13925283" valueTypeId="f9a985d9-d0c2-4c08-afb3-0e249a4fc46f"/>
+    <selectionType typeId="3493c0f6-e3d2-4e2f-af08-e25fde71b76d" valueTypeId="3fa8ed33-0953-4a5a-ba0e-a2fa834cd2de"/>
+    <listType typeId="c09b4a6d-d253-470d-b1ee-02579b15f8cc" valueTypeId="2d1d813d-768c-4bbd-9bdd-7dfc6e2aec4e"/>
+    <managerType typeId="3fc4c32f-a8c6-46e8-a281-5a3fe2b8b335" valueTypeId="a3377540-7471-465a-bc4c-618f8b535b31"/>
+  </producedTypes>
+  <name>Заявители</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заявители</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Заявители.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Заявители.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Заявители.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="f4ef1697-1648-4223-b831-966163c78016">
+    <name>ТелефонВнутренний</name>
+    <synonym>
+      <key>ru</key>
+      <value>Телефон внутренний</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>4</length>
+        <fixed>true</fixed>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value>    </value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1cb0fc8d-9490-44a4-be0e-0adde7c64014">
+    <name>ТелефонВнешний</name>
+    <synonym>
+      <key>ru</key>
+      <value>Телефон внешний</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9d237bbd-8908-4a70-9570-d834cf213b89">
+    <name>EMail</name>
+    <synonym>
+      <key>ru</key>
+      <value>E mail</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="dfdc96e4-09a2-4791-8dd1-74831d75ea70">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

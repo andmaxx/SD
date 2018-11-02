@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c95b369f-02ef-4eda-92c0-89bfa16a3466">
+  <producedTypes>
+    <objectType typeId="15f5482d-875d-49d7-875b-93987f59d20a" valueTypeId="205da851-34c6-4f5b-960b-3d0b84611f5b"/>
+    <refType typeId="8d29e17c-5352-4ce5-950e-0cd1e83e8199" valueTypeId="758a9f4b-f590-4fcf-ab74-78be4cde038b"/>
+    <selectionType typeId="77430a9b-e934-42a0-b90b-c72d2752b8e7" valueTypeId="36b4ea60-e274-4c11-9584-3ae93c2eb637"/>
+    <listType typeId="aef4029a-75bf-4aa5-8727-9b74832b9097" valueTypeId="73c38674-409c-430b-8345-99ab838a643e"/>
+    <managerType typeId="a5d6b08f-b6bd-40dd-bcbc-8aa3b8c6d115" valueTypeId="958f98b7-8959-4c0b-b72e-a6096a31fc71"/>
+  </producedTypes>
+  <name>Исполнители</name>
+  <synonym>
+    <key>ru</key>
+    <value>Исполнители</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Исполнители.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Исполнители.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="85cdb8b0-4eea-403a-ad23-dcd5aaa14e66">
+    <name>EMail</name>
+    <synonym>
+      <key>ru</key>
+      <value>E mail</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
